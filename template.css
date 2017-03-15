@@ -5,16 +5,24 @@ header {
 }
 
 header > h1 {
-	margin: 0;
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
 }
 
 footer {
 	background: gray;
 	color: white;
+	margin: 10px 0px;
+	padding: 10px 0px;
+	text-align: center;
 }
 
 .linkbar {
 	background-color: #444;
+	text-align: center;
 }
 
 .feature {
@@ -24,10 +32,9 @@ footer {
 
 nav.linkbar > ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	padding: 0px;
+	margin: 0px;
 	overflow: hidden;
-	text-align: center;
 }
 
 nav.linkbar > ul > li {
