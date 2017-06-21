@@ -1,0 +1,12 @@
+public
+|
+|-index (front page)
+|-games
+  |-all games
+  |-featured (link on hotbar)
+|-projects
+  |-worldbuilding
+    |-medieval fantasy
+    |-urban fantasy
+|-contact
+|-about (?)

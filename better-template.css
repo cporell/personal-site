@@ -1,0 +1,27 @@
+header {
+	background: blue;
+	color: white;
+	padding: .5em;
+}
+
+header > h1 { margin: 0px; }
+
+body {
+	background: gray;
+	margin: 0px;
+}
+
+.linkbar > ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.linkbar > ul > li{
+	
+}
+
+.feature{
+	margin-left: 25%;
+	margin-right: 25%;
+}
