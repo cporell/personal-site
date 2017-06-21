@@ -9,6 +9,7 @@ header > h1 {
 }
 
 body {
+	background: gray;
 	margin: 0px;
 }
 
@@ -26,8 +27,10 @@ footer {
 }
 
 .feature {
+	
 	background: red;
 	color: white;
+	margin-left: 15%;
 }
 
 nav.linkbar > ul {
