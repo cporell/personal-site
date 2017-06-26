@@ -1,26 +1,27 @@
 {
-	"name": "connor-personal-site",
-	"version": "0.0.1",
-	"description": "A simple personal site with links to my projects and other works",
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js"
-	},
-	"dependencies": {
-		"express": "4.15.3"
-	},
-	"engines": {
-		"node": "6.10.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/cporell/personal-site"
-	},
-	"keywords": [
-		"node",
-		"heroku",
-		"express"
-	],
-	"author": "Connor Porell",
-	"license": "MIT"
+  "name": "connor-personal-site",
+  "version": "0.0.1",
+  "description": "A simple personal site with links to my projects and other works",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.15.3",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cporell/personal-site"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Connor Porell",
+  "license": "MIT"
 }
