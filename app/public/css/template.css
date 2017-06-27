@@ -26,13 +26,6 @@ footer {
 	text-align: center;
 }
 
-.feature {
-	
-	background: red;
-	color: white;
-	margin-left: 15%;
-}
-
 nav.linkbar > ul {
 	list-style-type: none;
 	padding: 0px;
@@ -57,4 +50,11 @@ nav.linkbar > ul > li > a {
 nav.linkbar > ul > li > a:hover {
 	background-color: #eee;
 	color: #111;
+}
+
+.feature {
+	
+	background: red;
+	color: white;
+	margin-left: 15%;
 }

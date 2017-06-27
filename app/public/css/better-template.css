@@ -4,21 +4,53 @@ header {
 	padding: .5em;
 }
 
-header > h1 { margin: 0px; }
+header > h1 {
+	margin: 0px; 
+}
 
 body {
 	background: gray;
 	margin: 0px;
 }
 
+footer {
+	background: gray;
+	color: white;
+	margin: 10px 0px;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.linkbar {
+	background-color: #444;
+	text-align: center;
+	padding-left: 20%;
+}
+
 .linkbar > ul{
-	list-style: none;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 .linkbar > ul > li{
-	
+	float: left;
+	display: inline;			/* Remove 'block' styling - display horiz. */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav.linkbar > ul > li > a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+nav.linkbar > ul > li > a:hover {
+	background-color: #eee;
+	color: #111;
 }
 
 .feature{
