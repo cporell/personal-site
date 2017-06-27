@@ -1,4 +1,6 @@
 var express = require('express');
+var path = require('path');
+
 var router = require('./public/routing/router');
 
 var app = express();
@@ -9,3 +11,5 @@ app.use('/', router);
 app.listen(port, function() {
 	console.log('Node app is running at localhost:' + port);
 });
+
+app.use(express.static(path.join(__dirname, '/app/public')));
