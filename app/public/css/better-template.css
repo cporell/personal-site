@@ -1,15 +1,26 @@
+.fullpage {
+	margin-left: 10%;
+	width: 80%;
+	background: #ffffff;
+}
+
 header {
 	background: blue;
 	color: white;
 	padding: .5em;
 }
 
-header > h1 {
+#header > h1 {
 	margin: 0px; 
 }
 
+a.plainTxt {
+	text-decoration: none;
+	color: white;
+}
+
 body {
-	background: gray;
+	background: #e1dbd2;
 	margin: 0px;
 }
 
@@ -21,39 +32,71 @@ footer {
 	text-align: center;
 }
 
-.linkbar {
+#linkbar {
 	background-color: #444;
 	text-align: center;
-	padding-left: 20%;
+	padding-left: 33%;
 }
 
-.linkbar > ul{
+#linkbar ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
-.linkbar > ul > li{
+#linkbar li{
 	float: left;
 	display: inline;			/* Remove 'block' styling - display horiz. */
 	margin-left: auto;
 	margin-right: auto;
 }
 
-nav.linkbar > ul > li > a {
+#linkbar a {
 	display: inline-block;
-	text-decoration: none;
-	color: white;
-	padding: 10px;
+	padding: 4px 10px 4px 10px;
 }
 
-nav.linkbar > ul > li > a:hover {
+#linkbar a:hover {
 	background-color: #eee;
 	color: #111;
 }
+/*
+.container{
+	width: 87.2em;
+	margin: 0 auto;
+	height: 0 2.2em 0 2.2em;
+}
 
-.feature{
-	margin-left: 25%;
-	margin-right: 25%;
+#feature{
+	width: 58.4em%;
+	float: left;
+}
+
+#bio{
+	margin-left: 28.7em;
+	float: right;
+}
+*/
+
+.container{
+	margin-left: 1.3em;
+	display: flex;
+	width: 80%;
+}
+
+#feature{
+	flex-basis: 75%;
+	padding: 1em;
+}
+
+#bio{
+	flex-basis: 20%;
+	padding: 1em;
+}
+
+.bioPic{
+	width: 124px;
+	height: 126px;
+	margin-bottom: .5em;
 }
