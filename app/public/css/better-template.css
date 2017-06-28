@@ -82,16 +82,16 @@ footer {
 .container{
 	margin-left: 1.3em;
 	display: flex;
-	width: 80%;
+	width: 100%;
 }
 
 #feature{
-	flex-basis: 75%;
+	flex-basis: 60%;
 	padding: 1em;
 }
 
 #bio{
-	flex-basis: 20%;
+	flex-basis: 25%;
 	padding: 1em;
 }
 
@@ -99,4 +99,5 @@ footer {
 	width: 124px;
 	height: 126px;
 	margin-bottom: .5em;
+	float: left;
 }
