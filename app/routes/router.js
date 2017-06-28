@@ -30,10 +30,10 @@ router.get('/contact', function(req, res){
 	res.sendFile(path.join(__dirname + '/../pages/contact.html'));
 });
 
-/*
+
 router.get('*', function(req, res){
 	res.sendFile(path.join(__dirname + '/../404page.html'));
 });
-*/
+
 
 module.exports = router;
