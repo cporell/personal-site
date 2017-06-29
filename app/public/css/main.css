@@ -5,18 +5,22 @@
 }
 
 header {
-	background: blue;
+	background: #e54c3a;
 	color: white;
 	padding: .5em;
+	text-align: center;
 }
 
-#header > h1 {
+#header h1 {
 	margin: 0px; 
+}
+
+#header a {
+	color: #ffffff;
 }
 
 a.plainTxt {
 	text-decoration: none;
-	color: white;
 }
 
 body {
@@ -25,7 +29,7 @@ body {
 }
 
 footer {
-	background: gray;
+	background: #764637;
 	color: white;
 	margin: 10px 0px;
 	padding: 10px 0px;
@@ -34,7 +38,7 @@ footer {
 
 #linkbar {
 	position: relative;
-	background-color: #444;
+	background: #764637;
 	text-align: center;
 	/**padding-left: 50%;*/
 	
@@ -56,17 +60,18 @@ footer {
 	display: inline;			/* Remove 'block' styling - display horiz. */
 	margin-left: auto;
 	margin-right: auto;
-	
+		
 }
 
 #linkbar a {
 	display: inline-block;
 	padding: 4px 10px 4px 10px;
+	color: white;
 }
 
 #linkbar a:hover {
-	background-color: #eee;
-	color: #111;
+	background-color: #e1dbd2;
+	color: #764637;
 }
 /*
 .container{
@@ -105,6 +110,9 @@ footer {
 .bioPic{
 	width: 124px;
 	height: 126px;
-	margin-bottom: .5em;
-	float: left;
+	border:2px solid black;
+    border-radius: 124px;
+    -webkit-border-radius: 124px;
+    -moz-border-radius: 124px;
+
 }
