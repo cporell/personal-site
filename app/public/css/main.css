@@ -1,3 +1,13 @@
+@font-face{
+	font-family: skinnyjeans;
+	src: url(/app/public/fonts/SkinnyJeans.ttf);
+}
+
+@font-face{
+	font-family: archistico;
+	src: url(/app/public/fonts/Archistico_Simple.ttf);
+}
+
 .fullpage {
 	margin-left: 10%;
 	width: 80%;
@@ -17,6 +27,7 @@ header {
 
 #header a {
 	color: #ffffff;
+	font-family: archistico;
 }
 
 a.plainTxt {
