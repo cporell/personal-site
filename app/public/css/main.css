@@ -1,31 +1,61 @@
+@font-face{
+	font-family: comfortaa;
+	src: url(/app/public/fonts/Comfortaa.ttf);
+}
+
+@font-face{
+	font-family: hamurz;
+	src: url(/app/public/fonts/hamurz.ttf);
+}
+
+@font-face{
+	font-family: corbel;
+	src: url(/app/public/fonts/corbel.ttf);
+}
+
 .fullpage {
 	margin-left: 10%;
 	width: 80%;
 	background: #ffffff;
 }
 
-header {
-	background: blue;
-	color: white;
-	padding: .5em;
+body {
+	background: #e1dbd2;
+	margin: 0px;
+	font-family: corbel;
 }
 
-#header > h1 {
-	margin: 0px; 
+header {
+	background: #e54c3a;
+	color: white;
+	padding: .5em;
+	text-align: center;
+}
+
+#header p{
+	font-size: 4em;
+	line-height: 0em;
+	font-family: hamurz;
+	margin: .57em;
+}
+
+#header span{
+	font-size: 1.4em;
+	line-height: 1.35em;
+	font-family: comfortaa;
+}
+
+#header a {
+	color: #ffffff;
 }
 
 a.plainTxt {
 	text-decoration: none;
-	color: white;
 }
 
-body {
-	background: #e1dbd2;
-	margin: 0px;
-}
 
 footer {
-	background: gray;
+	background: #764637;
 	color: white;
 	margin: 10px 0px;
 	padding: 10px 0px;
@@ -34,10 +64,10 @@ footer {
 
 #linkbar {
 	position: relative;
-	background-color: #444;
+	background: #764637;
 	text-align: center;
-	/**padding-left: 50%;*/
-	
+	font-family: comfortaa;	
+	font-size: 1.1em;
 }
 
 #linkbar ul{
@@ -47,7 +77,6 @@ footer {
 	overflow: hidden;
 	left: 50%;
 	display: inline-flex;
-	/*justify-content: center;*/
 }
 
 #linkbar li{
@@ -56,17 +85,18 @@ footer {
 	display: inline;			/* Remove 'block' styling - display horiz. */
 	margin-left: auto;
 	margin-right: auto;
-	
+		
 }
 
 #linkbar a {
 	display: inline-block;
 	padding: 4px 10px 4px 10px;
+	color: white;
 }
 
 #linkbar a:hover {
-	background-color: #eee;
-	color: #111;
+	background-color: #e1dbd2;
+	color: #764637;
 }
 /*
 .container{
@@ -105,6 +135,9 @@ footer {
 .bioPic{
 	width: 124px;
 	height: 126px;
-	margin-bottom: .5em;
-	float: left;
+	border:2px solid black;
+    border-radius: 124px;
+    -webkit-border-radius: 124px;
+    -moz-border-radius: 124px;
+
 }
