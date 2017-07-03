@@ -1,17 +1,28 @@
 @font-face{
-	font-family: skinnyjeans;
-	src: url(/app/public/fonts/SkinnyJeans.ttf);
+	font-family: comfortaa;
+	src: url(/app/public/fonts/Comfortaa.ttf);
 }
 
 @font-face{
-	font-family: archistico;
-	src: url(/app/public/fonts/Archistico_Simple.ttf);
+	font-family: hamurz;
+	src: url(/app/public/fonts/hamurz.ttf);
+}
+
+@font-face{
+	font-family: corbel;
+	src: url(/app/public/fonts/corbel.ttf);
 }
 
 .fullpage {
 	margin-left: 10%;
 	width: 80%;
 	background: #ffffff;
+}
+
+body {
+	background: #e1dbd2;
+	margin: 0px;
+	font-family: corbel;
 }
 
 header {
@@ -21,23 +32,27 @@ header {
 	text-align: center;
 }
 
-#header h1 {
-	margin: 0px; 
+#header p{
+	font-size: 4em;
+	line-height: 0em;
+	font-family: hamurz;
+	margin: .57em;
+}
+
+#header span{
+	font-size: 1.4em;
+	line-height: 1.35em;
+	font-family: comfortaa;
 }
 
 #header a {
 	color: #ffffff;
-	font-family: archistico;
 }
 
 a.plainTxt {
 	text-decoration: none;
 }
 
-body {
-	background: #e1dbd2;
-	margin: 0px;
-}
 
 footer {
 	background: #764637;
@@ -51,8 +66,8 @@ footer {
 	position: relative;
 	background: #764637;
 	text-align: center;
-	/**padding-left: 50%;*/
-	
+	font-family: comfortaa;	
+	font-size: 1.1em;
 }
 
 #linkbar ul{
@@ -62,7 +77,6 @@ footer {
 	overflow: hidden;
 	left: 50%;
 	display: inline-flex;
-	/*justify-content: center;*/
 }
 
 #linkbar li{
