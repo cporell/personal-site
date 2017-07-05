@@ -4,13 +4,23 @@
 }
 
 @font-face{
-	font-family: hamurz;
-	src: url(/app/public/fonts/hamurz.ttf);
+	font-family: corbel;
+	src: url(/app/public/fonts/corbel.ttf);
 }
 
 @font-face{
-	font-family: corbel;
-	src: url(/app/public/fonts/corbel.ttf);
+	font-family: SketchBlock;
+	src: url(/app/public/fonts/Sketch_Block.ttf);
+}
+
+@font-face{
+	font-family: teacher;
+	src: url(/app/public/fonts/KGWhattheTeacherWants.ttf);
+}
+
+@font-face{
+	font-family: summersunshine;
+	src: url(/app/public/fonts/KGSummerSunshineBlackout.ttf);
 }
 
 .fullpage {
@@ -21,7 +31,8 @@
 
 body {
 	background: #e1dbd2;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: corbel;
 }
 
@@ -33,16 +44,17 @@ header {
 }
 
 #header p{
-	font-size: 4em;
-	line-height: 0em;
-	font-family: hamurz;
-	margin: .57em;
+	font-size: 3em;
+	font-family: summersunshine;
+	line-height: .0em;
+	margin: .77em;
+	padding-bottom: .2em;
 }
 
 #header span{
 	font-size: 1.4em;
 	line-height: 1.35em;
-	font-family: comfortaa;
+	font-family: SketchBlock;
 }
 
 #header a {
@@ -98,26 +110,8 @@ footer {
 	background-color: #e1dbd2;
 	color: #764637;
 }
-/*
-.container{
-	width: 87.2em;
-	margin: 0 auto;
-	height: 0 2.2em 0 2.2em;
-}
-
-#feature{
-	width: 58.4em%;
-	float: left;
-}
-
-#bio{
-	margin-left: 28.7em;
-	float: right;
-}
-*/
 
 .container{
-	margin-left: 1.3em;
 	display: flex;
 	width: 100%;
 }
@@ -125,19 +119,41 @@ footer {
 #feature{
 	flex-basis: 60%;
 	padding: 1em;
+	margin: .5em 0em 0em 1.3em;
+}
+
+#feature h2 {
+	line-height: .7em;
+	font-family: teacher;
 }
 
 #bio{
-	flex-basis: 25%;
+	flex-basis: 40%;
 	padding: 1em;
 }
 
+img {
+	/*display: block;*/
+}
+
 .bioPic{
+	float:left;
 	width: 124px;
 	height: 126px;
 	border:2px solid black;
+	
     border-radius: 124px;
     -webkit-border-radius: 124px;
     -moz-border-radius: 124px;
+	
+}
 
+.socMedIcons  img{
+	width: 2.5em;
+	height: 2.5em;
+
+}
+
+.bioTxt {
+	line-height: 1.2em;
 }
