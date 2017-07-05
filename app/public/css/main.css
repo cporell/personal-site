@@ -4,13 +4,18 @@
 }
 
 @font-face{
-	font-family: hamurz;
-	src: url(/app/public/fonts/hamurz.ttf);
+	font-family: corbel;
+	src: url(/app/public/fonts/corbel.ttf);
 }
 
 @font-face{
-	font-family: corbel;
-	src: url(/app/public/fonts/corbel.ttf);
+	font-family: SketchBlock;
+	src: url(/app/public/fonts/Sketch_Block.ttf);
+}
+
+@font-face{
+	font-family: teacher;
+	src: url(/app/public/fonts/KGWhattheTeacherWants.ttf);
 }
 
 .fullpage {
@@ -21,7 +26,8 @@
 
 body {
 	background: #e1dbd2;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: corbel;
 }
 
@@ -35,14 +41,14 @@ header {
 #header p{
 	font-size: 4em;
 	line-height: 0em;
-	font-family: hamurz;
+	font-family: teacher;
 	margin: .57em;
 }
 
 #header span{
 	font-size: 1.4em;
 	line-height: 1.35em;
-	font-family: comfortaa;
+	font-family: SketchBlock;
 }
 
 #header a {
@@ -110,13 +116,17 @@ footer {
 	margin: .5em 0em 0em 1.3em;
 }
 
+#feature h2 {
+	line-height: .7em;
+}
+
 #bio{
 	flex-basis: 40%;
 	padding: 1em;
 }
 
 img {
-	display: block;
+	/*display: block;*/
 }
 
 .bioPic{
@@ -129,6 +139,12 @@ img {
     -webkit-border-radius: 124px;
     -moz-border-radius: 124px;
 	
+}
+
+.socMedIcons  img{
+	width: 2.5em;
+	height: 2.5em;
+
 }
 
 .bioTxt {
