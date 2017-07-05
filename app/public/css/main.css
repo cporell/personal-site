@@ -18,6 +18,11 @@
 	src: url(/app/public/fonts/KGWhattheTeacherWants.ttf);
 }
 
+@font-face{
+	font-family: summersunshine;
+	src: url(/app/public/fonts/KGSummerSunshineBlackout.ttf);
+}
+
 .fullpage {
 	margin-left: 10%;
 	width: 80%;
@@ -39,10 +44,11 @@ header {
 }
 
 #header p{
-	font-size: 4em;
-	line-height: 0em;
-	font-family: teacher;
-	margin: .57em;
+	font-size: 3em;
+	font-family: summersunshine;
+	line-height: .0em;
+	margin: .77em;
+	padding-bottom: .2em;
 }
 
 #header span{
@@ -118,6 +124,7 @@ footer {
 
 #feature h2 {
 	line-height: .7em;
+	font-family: teacher;
 }
 
 #bio{
