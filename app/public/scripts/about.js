@@ -1,1 +1,1 @@
-document.getElementById('feature').innerHTML = 'Hello world';
+document.getElementById('feature').innerHTML += 'Hello world <br/>';
