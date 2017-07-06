@@ -8,7 +8,8 @@ var router = express.Router();
 
 // load the main page on reaching the base dir
 router.get('/', function(req, res){
-	res.sendFile(path.join(__dirname + '/../pages/home.html'));
+	//res.sendFile(path.join(__dirname + '/../pages/home.html'));
+	res.sendFile(path.join(__dirname + '/../pages/template.html'));
 });
 
 router.get('/whats-new', function(req, res){
