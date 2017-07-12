@@ -6,6 +6,9 @@ var router = require('./app/routes/router');
 var app = express();
 var port = process.env.PORT || 3000;
 
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/app/views');
+
 app.use('/app/public', express.static(__dirname + '/app/public'));
 app.use('/', router);
 
