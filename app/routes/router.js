@@ -10,7 +10,7 @@ var router = express.Router();
 router.get('/', function(req, res){
 	//res.sendFile(path.join(__dirname + '/../pages/home.html'));
 	//res.sendFile(path.join(__dirname + '/../pages/template.html'));
-	res.render('pages/index', {title: 'Home'});
+	res.render('pages/home', {title: 'Home'});
 });
 
 router.get('/about', function(req, res){
