@@ -1,8 +1,32 @@
-.gameBlock {
-	display: flex;
+.gameRow {
+	padding-bottom: 3em;
+}
+
+.gameBlock  {
+	display: inline-block;
+	float: left;
 	width: 33%;
+	font-size: .85em;
+	text-align: center;
+}
+
+.gameBlock > a {
+	text-decoration: none;
+
+}
+
+.gameBlock  p {
+	color: black;
+	margin: .4em;
+}
+
+.gameBlock .title {
+	font-size: 1.5em;
+
 }
 
 .gamePic {
-	
+	width:  7em;
+	height: 7em;
+	margin: 0;
 }
