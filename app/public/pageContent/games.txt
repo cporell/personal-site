@@ -1,0 +1,52 @@
+[
+	{
+		"img": "doublevision",
+		"title": "Double Vision",
+		"desc": "A 2-player puzzler... for 1 person"
+	},
+	{
+		"img": "catacomb",
+		"title": "Catacomb Crawler",
+		"desc": "A dungeon crawler built from scratch in C++"
+	},
+	{
+		"img": "storybook",
+		"title": "Storybook",
+		"desc": "A multiplayer dungeon-crawling experience"
+	},
+	{
+		"img": "ragnarok",
+		"title": "Ragnarok",
+		"desc": "An interactive retelling of the Norse endtimes"
+	},
+	{
+		"img": "aoe2scen1",
+		"title": "A Threat from the North",
+		"desc": "A custom scenario for <i>Age of Empires 2</i>"
+	},
+	{
+		"img": "feudalfootpads",
+		"title": "Feudal Footpads",
+		"desc": "An Eastern-style stealth-based adventure"
+	},
+	{
+		"img": "spaceswiper",
+		"title": "Space Swiper",
+		"desc": "Touch controls grace this space-themed puzzler"
+	},
+	{
+		"img": "mazemaker",
+		"title": "Maze Maker",
+		"desc": "An exploratory entry to the <i>Perlenspiel</i> engine"
+	},
+	{
+		"img": "stacking",
+		"title": "Steady Stacking",
+		"desc": "A calm, atmospheric title based on cairns"
+	},
+	{
+		"img": "minigolf",
+		"title": "Manic Mini-Golf",
+		"desc": "A mobile-focused touch-based mini-golf game"
+	}
+]
