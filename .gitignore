@@ -2,3 +2,5 @@ app/public/games
 public/games
 node_modules
 npm-debug.log
+.idea
+*.iml
