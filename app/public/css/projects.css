@@ -1,0 +1,35 @@
+.projectRow {
+	padding-bottom: 3em;	
+}
+
+.projectBlock {
+	display: inline-block;
+	float: left;
+	width: auto;
+	font-size: .85em;
+	text-align: center;
+}
+
+.projectBlock > a {
+	text-decoration: none;
+}
+
+.projectBlock  p {
+	color: black;
+	margin: .4em;
+}
+
+.projectBlock .title {
+	font-size: 1.9em;
+
+}
+
+.projectDesc {
+	text-align: left;
+}
+
+.projectPic {
+	height: auto;
+	max-width: 100%;
+	margin: 0;
+}
