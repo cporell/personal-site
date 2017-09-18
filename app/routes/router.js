@@ -1,15 +1,12 @@
 var express = require('express');
 var path = require('path');
 
-var whatsNewController = require('../controllers/whatsNewController'),
-	aboutController = require('../controllers/aboutController');
+var aboutController = require('../controllers/aboutController');
 
 var router = express.Router();
 
 // load the main page on reaching the base dir
 router.get('/', function(req, res){
-	//res.sendFile(path.join(__dirname + '/../pages/home.html'));
-	//res.sendFile(path.join(__dirname + '/../pages/template.html'));
 	res.render('pages/home', {title: 'Home'});
 });
 
@@ -37,14 +34,25 @@ router.get('/contact', function(req, res){
 	res.render('pages/contact', {title: 'Contact Me'});
 });
 
+router.get('/hottakes', function(req, res){
+	res.render('pages/subsites/got_hot_takes/gothottakes', {title: 'R501\'s Hottest GoT Theories'});
+})
+
+router.get('/sprints', function(req, res){
+	res.render('pages/subsites/sprints_til_xmas/sprintsuntilxmas', {title: 'Sprints Until Christmas'});
+})
+
+router.get('/whats-new', function(req, res){
+	res.render('pages/subsites/whats_new_in_wiz/whatsnew', {title: 'What\'s New in Wizard101'});
+});
+
+router.get('/whats-new/:id', function(req, res){
+	res.render('/pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
+})
+
 router.get('*', function(req, res){
 	res.render('pages/404page', {title:'Page not found'});
 });
 
-/*
-router.get('/whats-new', function(req, res){
-	whatsNewController.loadWhatsNewHome(req, res);
-});
-*/
 
 module.exports = router;
