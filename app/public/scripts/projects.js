@@ -41,7 +41,7 @@ function load(){
 	xmlhttp.send();
 }
 
-//load();
+load();
 
 /**
  * Builds the slideshow by reading in the projects from the txt file
@@ -69,5 +69,4 @@ function buildSlideshow(){
 	xmlhttp.open("GET", "/app/public/pageContent/projects.txt", true);
 	xmlhttp.send();
 }
-
-buildSlideshow();
+// buildSlideshow();
