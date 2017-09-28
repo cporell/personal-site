@@ -1,0 +1,30 @@
+/**
+ * Created by CPORELL on 9/28/2017.
+ */
+var sitemapHidden = false;
+var sitemapFlexBasis = 18;
+var featureFlexBasisShort = 58;
+var featureFlexBasisFull = 68;
+var bioFlexBasisShort = 24;
+var bioFlexBasisFull = 32;
+
+document.getElementById('sitemap-toggle').onclick = function(){
+    if(sitemapHidden){
+        sitemapHidden = false;
+        document.getElementById('sitemap-toggle').className = "arrow left";
+        document.getElementById('sitemap-content').style.display = "block";
+        document.getElementById('sitemap').style.flexBasis = sitemapFlexBasis + '%';
+        document.getElementById('feature').style.flexBasis = featureFlexBasisShort + '%';
+        document.getElementById('bio').style.flexBasis = bioFlexBasisShort + '%';
+        return;
+    }
+    else {
+        sitemapHidden = true;
+        document.getElementById('sitemap-toggle').className = "arrow right";
+        document.getElementById('sitemap-content').style.display = "none";
+        document.getElementById('sitemap').style.flexBasis = '0%';
+        document.getElementById('feature').style.flexBasis = featureFlexBasisFull + '%';
+        document.getElementById('bio').style.flexBasis = bioFlexBasisFull + '%';
+        return;
+    }
+}
