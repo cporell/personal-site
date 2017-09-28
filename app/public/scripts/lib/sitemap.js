@@ -28,3 +28,31 @@ document.getElementById('sitemap-toggle').onclick = function(){
         return;
     }
 }
+
+function populateSitemap() {
+    var sitemap = document.getElementById('sitemap-content');
+    sitemap.innerHTML = '<h3>Games</h3>';
+    sitemap.innerHTML += '<p id="sitemap-games">';
+    gatherContent('games');
+    sitemap.innerHTML += '</p>';
+    sitemap.innerHTML += '<hr>';
+    sitemap.innerHTML += '<h3>Projects</h3>';
+    sitemap.innerHTML += '<p id="sitemap-projects">';
+    gatherContent('projects');
+    sitemap.innerHTML += '</p>';
+}
+
+function gatherContent(contentType){
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function(){
+        if(this.readyState == 4 && this.status == 200){
+            JSON.parse(this.responseText).forEach(function(elt){
+                document.getElementById('sitemap-' + contentType).innerHTML += '<a class="plainTxt" href="/' + contentType + '/' + elt.title + '">' +  elt.title + '</a><br/>';
+            });
+        }
+    };
+    xmlhttp.open('GET', '/app/public/pageContent/' + contentType + '.txt', true);
+    xmlhttp.send();
+}
+
+populateSitemap();

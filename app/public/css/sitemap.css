@@ -12,6 +12,15 @@
     display: block;
 }
 
+#sitemap-content > h3, p {
+    margin: .3em;
+    padding: 0px;
+}
+
+#sitemap-content  a {
+    color: #764637;
+}
+
 i {
     border: solid black;
     border-width: 0 4px 4px 0;
