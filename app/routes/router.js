@@ -50,9 +50,8 @@ router.get('/whats-new/:id', function(req, res){
 	res.render('/pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
 })
 
-router.get('*', function(req, res){
+router.get('/*', function(req, res){
 	res.render('pages/404page', {title:'Page not found'});
 });
-
 
 module.exports = router;

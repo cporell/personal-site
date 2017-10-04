@@ -127,6 +127,10 @@ footer {
 	font-family: teacher;
 }
 
+.paragraph-text {
+    text-indent: 1.2em;
+}
+
 #bio{
 	flex-basis: 24%;
 	padding: 1em;

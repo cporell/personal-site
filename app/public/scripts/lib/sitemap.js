@@ -40,6 +40,13 @@ function populateSitemap() {
     sitemap.innerHTML += '<p id="sitemap-projects">';
     gatherContent('projects');
     sitemap.innerHTML += '</p>';
+    sitemap.innerHTML += '<hr>';
+    sitemap.innerHTML += '<h3>Sub-sites</h3>';
+    sitemap.innerHTML += '<p id="subsites">';
+    document.getElementById('subsites').innerHTML += '<a class="plainTxt" href="/whats-new">What\'s New in Wiz</a><br/>';
+    document.getElementById('subsites').innerHTML += '<a class="plainTxt" href="/sprints">Sprints Until Christmas</a><br/>';
+    document.getElementById('subsites').innerHTML += '<a class="plainTxt" href="/hottakes">R501 Game of Thrones Theories</a><br/>';
+    sitemap.innerHTML += '</p>';
 }
 
 function gatherContent(contentType){
