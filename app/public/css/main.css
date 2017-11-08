@@ -144,6 +144,7 @@ img {
 	float:left;
 	width: 124px;
 	height: 126px;
+    z-index: -1;
 	border:2px solid black;
 	
     border-radius: 124px;
