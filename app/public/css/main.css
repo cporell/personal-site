@@ -117,7 +117,7 @@ footer {
 }
 
 #feature{
-	flex-basis: 58%;
+	flex-basis: 60%;
 	padding: 1em;
 	margin: .5em 0em 0em 1.3em;
 }
@@ -132,7 +132,7 @@ footer {
 }
 
 #bio{
-	flex-basis: 24%;
+	flex-basis: 40%;
 	padding: 1em;
 }
 

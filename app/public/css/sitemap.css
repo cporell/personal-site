@@ -21,7 +21,7 @@
     color: #764637;
 }
 
-i {
+.arrow i {
     border: solid black;
     border-width: 0 4px 4px 0;
     display: inline-block;
