@@ -4,3 +4,5 @@ node_modules
 npm-debug.log
 .idea
 *.iml
+personal-site.code-workspace
+package-lock.json
