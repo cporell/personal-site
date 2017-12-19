@@ -7,10 +7,12 @@
  // title, image, desc
 function buildProjectTemplate(elt){
 	var templateStr = '';
-	templateStr += '<span class="projectBlock">';
+	// templateStr += '<span class="tooltip projectBlock">';
+	templateStr += '<span class="projectBlock">';	
 	templateStr += '<a href="/projects/' + elt.title + '">';
 	templateStr += '<img class="projectPic" src="/app/public/images/projectCovers/' + elt.img + '.png"><br/>';
 	templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
+	// templateStr += '<span class="projectDesc tooltipText">' + elt.desc + '</span></p>';
 	templateStr += '<span class="projectDesc">' + elt.desc + '</span></p>';
 	templateStr += '</a>';
 	templateStr += '</span>';
