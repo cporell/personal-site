@@ -135,13 +135,13 @@ footer {
 	padding: 1em;
 }
 
-.homeImg {
+.aboutImg {
 	float: left;
 	display: block;
 	margin-right: .5em;
 }
 
-#homeText {
+#aboutText {
 	margin: 0em 1.5em;
 }
 
