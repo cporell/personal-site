@@ -1,112 +1,45 @@
 <html lang="en">
-	<head>
-		<% include ../partials/head %>
-		<link rel="stylesheet" type="text/css" href="/app/public/css/about.css">
-	</head>
-	<body>
-		<div class="fullpage">
-			<% include ../partials/header %>
-			<section class="container">
-				<!--<% include ../partials/sitemap %>-->
-				<article id="feature">
-                    <h2>Employment</h2>
-                        <div class="aboutBlock">
-                            <span class="left"><b>Web Application Developer, MITRE Corp.</b></span>
-                            <span class="right">June 2016 -</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Current duties involve:
-                                <ul>
-                                    <li>Working on the team tasked with upgrading our People and Projects 
-                                        Search service to searchkit and ElasticSearch</li>
-                                    <li>Maintaining SharePoint services after the recent rollout to SharePoint 2016</li>
-                                    <li>Building the iOS mobile app for MITRE.</li>
-                                </ul>
-                                Previous projects include:
-                                <ul>
-                                    <li>Building a node app to track various user activity. Was involved in design, development,
-                                        rollout, and retirement of the app.
-                                    </li>
-                                    <li>Developing various services for SharePoint 2016 in anticipation of a company-wide upgrade
-                                        in August 2017.
-                                    </li>
-                                </ul>
-                                At MITRE, I've worked with a wide variety of technologies, including: SharePoint 2016, Powershell, C#, 
-                                .NET, NodeJS, Express, React, MongoDB, RabbitMQ, Docker, and Swift.
-                            </div>
+        <head>
+            <% include ../partials/head %>
+        </head>
+        <body>
+            <div class="fullpage">
+                <% include ../partials/header %>
+                <section class="container">
+                    <article id="feature">
+                        <img class="aboutImg" src="/app/public/images/index.png" />
+                        <div id="aboutText">
+                            <p>
+                                I'm Connor, a recent(-ish) graduate from Worcester Polytechnic Institute, holding
+                                a double Bachelor's of Science in Computer Science and Interactive Media &amp; Game Development.
+                                Currently I am a web apps developer for MITRE, working on a variety of things including SharePoint, 
+                                ElasticSearch, and iOS Mobile apps. In my free time I enjoy worldbuiling (particularly for Pathfinder
+                                campaigns), character design, drawing, or playing some sort of RPG.
+                            </p>
+                            <p>
+                                Though I didn't discover this until recently, I consider myself to be gender-nonconforming. That is,
+                                while I am comfortable in my assigned-at-birth male body, and while I am comfortable with society 
+                                viewing me as a man, I reject a lot of aspects of what society thinks makes a man, a man. While
+                                I haven't determined if I feel comfortable putting on a label beyond that (especially as I am still 
+                                in a sort of exploratory phase regarding what I like), I take comfort in the fact that I don't fit
+                                or outright defy certain aspects of what's expected of men in society. The most obvious way is in the way
+                                I present myself - not entirely masculine or feminine, yet not vague enough to be considered androgynous.
+                                Taking comfort in presenting this way is something that's taken me literal years to be comfortable with,
+                                and as such I now present myself in my own unique self with pride.
+                            </p>
+                            <p>
+                                A big part of self-discovery for myself (and, I'm sure, for many others) was expressing myself 
+                                through art. I primarily tend to draw people - and each person I draw tends to have a little bit of me
+                                inside each of them. One character may be the punk or preppy side I'd never dabble in but think about,
+                                another would be an outlet when I was still repressing aspects of my femininity. Before I gained the 
+                                confidence to express myself in the real world, I would often (and still do) channel that desire
+                                into an intimate and private form with limitless potential.
+                            </p>
                         </div>
-                        <div class="aboutBlock">
-                            <span class="left"><b>IT Summer Assistant, Lowell Catholic High School</b></span>
-                            <span class="right">Summer 2015</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Stuff about what I did at LCHS
-                            </div>
-                        </div>
-                        <div class="aboutBlock">
-                            <span class="left"><b>Software Engineering Intern, Kronos</b></span>
-                            <span class="right">Summer 2014</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Stuff about what I did at Kronos
-                            </div>
-                        </div>
-                    <hr>
-                    <h2>Education</h2>
-                        <div class="aboutBlock">
-                            <span class="left"><b>Worcester Polytechnic Institute</b><br>
-                                Candidate for M.S. in Systems Engineering</span>
-                            <span class="right">Anticipated completion Spring 2021</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Accepted for a Masters program in Systems Engineering, offered through a
-                                special collaboration between WPI and MITRE. Program begins January 2018.<br>
-                            </div>
-                        </div>
-                        <div class="aboutBlock">
-                            <span class="left"><b>Worcester Polytechnic Institute</b><br>
-                                B.S. Computer Science, Interactive Media and Game Development</span>
-                            <span class="right">2012 - 2016</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Graduated with High Distinction with a double major in Computer Science
-                                and Interactive Media & Game Development.<br>
-                            <i>Relevant Coursework:</i>
-                            <ul>
-                                <li>Computer Science:</li>
-                                    <ul>
-                                        <li></li>
-                                    </ul>
-                                <li>Interactive Media:</li>
-                                    <ul>
-                                        <li></li>
-                                    </ul>
-                            </ul>
-                            </div>
-                        </div>
-                    <hr>
-                    <h2>Projects</h2>
-                        <div class="aboutBlock">
-                            <span class="left">Storybook</span>
-                            <span class="right">2015 - 2016 academic year</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Stuff about Storybook, with a handy link to the project page!
-                            </div>
-                        </div>
-                        <div class="aboutBlock">
-                            <span class="left">Rosewood Worldbuilding Project</span>
-                            <span class="right">2017 -</span>
-                            <div style="clear: both"></div>
-                            <div class="aboutDetails">
-                                Personal worldbuilding project. Small bio, link to Wiki <a href="https://google.com">here</a>, project page <a href="https://google.com">here</a>.
-                            </div>
-                        </div>
-				</article>
-				<% include ../partials/sidebar %>
-			</section>
-			<hr />
-			<% include ../partials/footer %>
-		</div>
-	</body>
-</html>
+                    </article>				
+                </section>
+                <hr />
+                <% include ../partials/footer %>
+            </div>
+        </body>
+    </html>

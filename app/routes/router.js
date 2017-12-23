@@ -14,6 +14,10 @@ router.get('/about', function(req, res){
 	res.render('pages/about', {title: 'About Me'});
 });
 
+router.get('/resume', function(req, res){
+	res.render('pages/resume', {title: 'Skills and Experience'});
+});
+
 router.get('/games', function(req, res){
 	res.render('pages/games', {title: 'Games'});	
 });
