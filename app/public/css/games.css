@@ -4,10 +4,12 @@
 
 .gameBlock  {
 	display: inline-block;
-	float: left;
+	max-width: 33%;
+	min-width: 10%;
 	width: 33%;
 	font-size: .85em;
 	text-align: center;
+	padding: 10px;
 }
 
 .gameBlock > a {

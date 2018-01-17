@@ -26,17 +26,17 @@ xmlhttp.onreadystatechange = function(){
 	if(this.readyState == 4 && this.status == 200){
 		myarr = JSON.parse(this.responseText);
 		var counter = 0;
-		document.getElementById('feature').innerHTML += '<div class="gameRow">';
+		// document.getElementById('feature').innerHTML += '<div class="gameRow">';
 		myarr.forEach(function(elt){
 			document.getElementById('feature').innerHTML += buildGamesTemplate(elt);
-			if(counter >= 2){
-				counter = 0;
-				document.getElementById('feature').innerHTML += '</div>';
-				document.getElementById('feature').innerHTML += '<div class="gameRow">';
-			}
-			else{
-				counter++;
-			}
+			// if(counter >= 2){
+			// 	counter = 0;
+			// 	document.getElementById('feature').innerHTML += '</div>';
+			// 	document.getElementById('feature').innerHTML += '<div class="gameRow">';
+			// }
+			// else{
+			// 	counter++;
+			// }
 		});
 	}
 };
