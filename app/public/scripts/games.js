@@ -2,6 +2,8 @@
  * Script to populate the games page.
  */
  
+// https://stackoverflow.com/questions/20456694/grid-of-responsive-squares
+ 
  // Build a template for a game selector
  // element has 3 parts assuming text parsing is correct:
  // title, image, desc
