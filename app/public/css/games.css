@@ -1,20 +1,23 @@
-.gameRow {
-	padding-bottom: 3em;
-}
-
+/* Code to get nice, responsive blocks from https://stackoverflow.com/questions/20456694/grid-of-responsive-squares */
 .gameBlock  {
-	display: inline-block;
-	max-width: 33%;
-	min-width: 10%;
-	width: 33%;
-	font-size: .85em;
-	text-align: center;
-	padding: 10px;
+	float: left;
+	position: relative;
+	width: 30%;
+	padding-bottom: 30%; /* width for a 1:1 aspect ratio */
+	margin: 1.66%;
+	overflow: hidden;
 }
 
-.gameBlock > a {
-	text-decoration: none;
+.gameContent {
+	position: absolute;
+	text-align: center;
+	height: 80%; /* = 100% - 2*10% padding */
+	width: 90%; /* = 100% - 2*5% padding */
+	padding: 10% 5%;
+}
 
+.gameBlock a {
+	text-decoration: none;
 }
 
 .gameBlock  p {
@@ -24,11 +27,11 @@
 
 .gameBlock .title {
 	font-size: 1.5em;
-
 }
 
 .gamePic {
-	width:  7em;
-	height: 7em;
-	margin: 0;
+	width: 90%;
+	height: 90%;
+	display: block;
+	margin: auto;
 }

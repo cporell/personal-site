@@ -1,33 +1,42 @@
-.projectRow {
-	padding-bottom: 3em;	
-}
-
+/* Code to get nice, responsive blocks from https://stackoverflow.com/questions/20456694/grid-of-responsive-squares */
 .projectBlock {
 	float: left;
-	width: 50%;
-	font-size: .85em;
-	text-align: center;
+	position: relative;
+	width: 45%;
+	padding-bottom: 35%;
+	margin: 1.66%;
+	overflow: hidden;
 }
 
-.projectBlock > a {
+.projectContent {
+	position: absolute;
+	text-align: center;
+	height: 80%; /* = 100% - 2*10% padding */
+	width: 90%; /* = 100% - 2*5% padding */
+	padding: 10% 5%;
+}
+
+.projectBlock a {
 	text-decoration: none;
 }
 
-.projectBlock  p {
+.projectBlock p {
 	color: black;
 	margin: .4em;
 }
 
-.projectBlock .title {
+.title {
 	font-size: 1.9em;
 }
 
 .projectDesc {
+	display: block;
 	text-align: left;
 }
 
 .projectPic {
-	height: auto;
 	max-width: 100%;
-	margin: 0;
+	height: auto;
+	display: block;
+	margin: auto;
 }

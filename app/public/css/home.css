@@ -1,0 +1,41 @@
+.homeBlock {
+    float: left;
+	position: relative;
+	width: 30%;
+	padding-bottom: 35%; /* width for a 1:1 aspect ratio */
+	margin: 1.66%;
+	/* overflow: hidden;    */
+}
+
+.homeContent {
+	position: absolute;
+	text-align: center;
+	height: 80%; /* = 100% - 2*10% padding */
+	width: 90%; /* = 100% - 2*5% padding */
+	padding: 10% 5%;    
+}
+
+.homeBlock a {
+    text-decoration: none;
+}
+
+.homeBlock p {
+    color: black;
+    margin: .4em;
+}
+
+.homeBlock .title {
+    font-size: 1.8em;
+}
+
+.homeDesc {
+    display: block;
+    text-align: left;
+}
+
+.homePic {
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}

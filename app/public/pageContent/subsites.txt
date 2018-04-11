@@ -1,0 +1,8 @@
+[
+	{
+        "loc": "whats_new_in_wiz/whatsnew",
+		"img": "infiltration",
+		"title": "What's New in Wizard101",
+		"desc": "A catch-up for new/returning Wizard101 players, created for the /r/wizard101 community."
+	}
+]
