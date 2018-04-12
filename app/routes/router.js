@@ -38,13 +38,17 @@ router.get('/contact', function(req, res){
 	res.render('pages/contact', {title: 'Contact Me'});
 });
 
+router.get('/subsites', function(req, res){
+	res.render('pages/subsitelist', {title: 'Subsites'});
+});
+
 router.get('/hottakes', function(req, res){
 	res.render('pages/subsites/got_hot_takes/gothottakes', {title: 'R501\'s Hottest GoT Theories'});
-})
+});
 
 router.get('/sprints', function(req, res){
 	res.render('pages/subsites/sprints_til_xmas/sprintsuntilxmas', {title: 'Sprints Until Christmas'});
-})
+});
 
 router.get('/whats-new', function(req, res){
 	res.render('pages/subsites/whats_new_in_wiz/whatsnew', {title: 'What\'s New in Wizard101'});

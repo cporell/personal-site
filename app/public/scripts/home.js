@@ -9,10 +9,14 @@ load();
 function buildShowcaseTemplate(elt){
 	var templateStr = '<div class="homeBlock">';
 	templateStr += '<div class="homeContent">';
-	templateStr += '<a href="/projects/' + elt.title + '">';
+	if(elt.type != 'subsites'){
+		templateStr += '<a href="/' + elt.type + '/' + elt.title + '">';
+	}
+	else {
+		templateStr += '<a href="/' + elt.img + '">';
+	}
 	templateStr += '<img class="homePic" src="/app/public/images/coverImages/' + elt.img + '.png"><br/>';
     templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
-    // templateStr += '<span class="homeDesc">' + elt.desc + '</span>';    
     if(elt.desc.length > 55){
         templateStr += '<div class="tooltip">' + elt.desc.substring(0, 55)+"...";
         templateStr += '<span class="tooltipText">' + elt.desc + '</span></div>'; // mouseover tooltip
