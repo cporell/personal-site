@@ -117,9 +117,8 @@ footer {
 }
 
 #feature{
-	flex-basis: 60%;
+	flex-basis: 100%;
 	padding: 1em;
-	margin: .5em 0em 0em 1.3em;
 }
 
 #feature h2 {
@@ -127,19 +126,30 @@ footer {
 	font-family: teacher;
 }
 
+.paragraph-text {
+    text-indent: 1.2em;
+}
+
 #bio{
 	flex-basis: 40%;
 	padding: 1em;
 }
 
-img {
-	/*display: block;*/
+.aboutImg {
+	float: left;
+	display: block;
+	margin-right: .5em;
+}
+
+#aboutText {
+	margin: 0em 1.5em;
 }
 
 .bioPic{
 	float:left;
 	width: 124px;
 	height: 126px;
+    z-index: -1;
 	border:2px solid black;
 	
     border-radius: 124px;

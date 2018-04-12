@@ -1,20 +1,21 @@
 var express = require('express');
 var path = require('path');
 
-var whatsNewController = require('../controllers/whatsNewController'),
-	aboutController = require('../controllers/aboutController');
+var aboutController = require('../controllers/aboutController');
 
 var router = express.Router();
 
 // load the main page on reaching the base dir
 router.get('/', function(req, res){
-	//res.sendFile(path.join(__dirname + '/../pages/home.html'));
-	//res.sendFile(path.join(__dirname + '/../pages/template.html'));
 	res.render('pages/home', {title: 'Home'});
 });
 
 router.get('/about', function(req, res){
 	res.render('pages/about', {title: 'About Me'});
+});
+
+router.get('/resume', function(req, res){
+	res.render('pages/resume', {title: 'Skills and Experience'});
 });
 
 router.get('/games', function(req, res){
@@ -37,36 +38,28 @@ router.get('/contact', function(req, res){
 	res.render('pages/contact', {title: 'Contact Me'});
 });
 
-router.get('*', function(req, res){
+router.get('/subsites', function(req, res){
+	res.render('pages/subsitelist', {title: 'Subsites'});
+});
+
+router.get('/hottakes', function(req, res){
+	res.render('pages/subsites/got_hot_takes/gothottakes', {title: 'R501\'s Hottest GoT Theories'});
+});
+
+router.get('/sprints', function(req, res){
+	res.render('pages/subsites/sprints_til_xmas/sprintsuntilxmas', {title: 'Sprints Until Christmas'});
+});
+
+router.get('/whats-new', function(req, res){
+	res.render('pages/subsites/whats_new_in_wiz/whatsnew', {title: 'What\'s New in Wizard101'});
+});
+
+router.get('/whats-new/:id', function(req, res){
+	res.render('/pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
+})
+
+router.get('/*', function(req, res){
 	res.render('pages/404page', {title:'Page not found'});
 });
-
-/*
-router.get('/whats-new', function(req, res){
-	whatsNewController.loadWhatsNewHome(req, res);
-});
-
-router.get('/about', function(req, res){
-	//aboutController.loadAbout(req, res);
-	res.sendFile(path.join(__dirname + '/../pages/about.html'));
-});
-
-router.get('/games', function(req, res){
-	res.sendFile(path.join(__dirname + '/../pages/games.html'));
-});
-
-router.get('/projects', function(req, res){
-	res.sendFile(path.join(__dirname + '/../pages/projects.html'));
-});
-
-router.get('/contact', function(req, res){
-	res.sendFile(path.join(__dirname + '/../pages/contact.html'));
-});
-
-
-router.get('*', function(req, res){
-	res.sendFile(path.join(__dirname + '/../pages/404page.html'));
-});
-*/
 
 module.exports = router;
