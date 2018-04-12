@@ -29,7 +29,7 @@ function buildProjectTemplate(elt){
 	else {
 		templateStr += '<a href="/' + elt.img + '">';
 	}
-	templateStr += '<img class="projectPic" src="/app/public/images/coverImages/' + elt.img + '.png"><br/>';
+	templateStr += '<img class="projectPic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
 	templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
 	templateStr += '<span class="projectDesc">' + elt.desc + '</span></p>';
 	templateStr += '</a>';

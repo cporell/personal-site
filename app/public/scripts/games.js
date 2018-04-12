@@ -25,7 +25,7 @@ function buildGamesTemplate(elt){
 	var templateStr = '<div class="gameBlock">';
 	templateStr += '<div class="gameContent">';
 	templateStr += '<a href="/' + elt.type + '/' + elt.img + '">';
-	templateStr += '<img class="gamePic" src="/app/public/images/coverImages/' + elt.img + '.png"><br/>';
+	templateStr += '<img class="gamePic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
 	templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
 	templateStr += elt.desc + '</p>';
 	templateStr += '</a>';

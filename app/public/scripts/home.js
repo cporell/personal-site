@@ -15,7 +15,7 @@ function buildShowcaseTemplate(elt){
 	else {
 		templateStr += '<a href="/' + elt.img + '">';
 	}
-	templateStr += '<img class="homePic" src="/app/public/images/coverImages/' + elt.img + '.png"><br/>';
+	templateStr += '<img class="homePic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
     templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
     if(elt.desc.length > 55){
         templateStr += '<div class="tooltip">' + elt.desc.substring(0, 55)+"...";
