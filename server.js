@@ -1,5 +1,6 @@
-var express = require('express');
-var path = require('path');
+var express = require('express'),
+	loki = require('lokijs'),
+	path = require('path');
 
 var router = require('./app/routes/router');
 
