@@ -1,8 +1,6 @@
 var express = require('express');
 var path = require('path');
 
-var aboutController = require('../controllers/aboutController');
-
 var router = express.Router();
 
 // load the main page on reaching the base dir
@@ -30,8 +28,12 @@ router.get('/projects', function(req, res){
 	res.render('pages/projects', {title: 'Other Projects'});
 });
 
+// router.get('/projects/:id', function(req, res){
+// 	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
+// });
+
 router.get('/projects/:id', function(req, res){
-	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
+	res.render('pages/projectpage', {title: req.params.id});	
 });
 
 router.get('/contact', function(req, res){

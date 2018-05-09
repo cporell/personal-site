@@ -23,12 +23,7 @@ function load(){
 function buildProjectTemplate(elt){
 	var templateStr = '<div class="projectBlock">';
 	templateStr += '<div class="projectContent">';
-	if(elt.type != 'subsites'){
-		templateStr += '<a href="/' + elt.type + '/' + elt.title + '">';
-	}
-	else {
-		templateStr += '<a href="/' + elt.img + '">';
-	}
+	templateStr += '<a href="/projects/' + elt.title + '">';
 	templateStr += '<img class="projectPic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
 	templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
 	templateStr += '<span class="projectDesc">' + elt.desc + '</span></p>';

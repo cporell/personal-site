@@ -3,21 +3,29 @@
 		<% include ../partials/head %>
 		<link rel="stylesheet" type="text/css" href="/app/public/css/projects.css">
         <link rel="stylesheet" type="text/css" href="/app/public/css/tooltip.css">
-        <script src="/app/public/scripts/lib/pouchdb-6.4.3.min.js"></script>
+		<script type="text/javascript" src="/app/public/scripts/lib/jquery-3.3.1.min.js"></script>
 	</head>
 	<body>
 		<div class="fullpage">
 			<% include ../partials/header %>
 			<section class="container">
 				<article id="feature">
-                    <center><h2>Test</h2></center>
 				</article>
 			</section>
 			<hr />
 			<% include ../partials/footer %>
 		</div>
 	</body>
-	<!-- Bundle.JS script handles requiring LokiDB for us!
-	Automatically includes projectpage.js / dbtest.js -->
-	<script type="text/javascript" src="/app/public/scripts/lib/bundle.js"></script>
+	<script>
+		setPageContent();
+
+		function setPageContent(){
+			$(function(){
+				var path = '/app/public/pageContent/projects/' + $(document).find("title").text() + '.html';
+				$.get(path, function(data){
+					$("#feature").html(data);
+				}, 'text');
+			});
+		}
+	</script>
 </html>
