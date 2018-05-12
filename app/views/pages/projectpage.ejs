@@ -21,6 +21,9 @@
 
 		function setPageContent(){
 			$(function(){
+
+				// https://stackoverflow.com/questions/5047906/how-to-detect-jquery-get-failure-seeking-simple-code-example
+				// Move error-checking to the Router
 				var path = '/app/public/pageContent/projects/' + $(document).find("title").text() + '.html';
 				$.get(path, function(data){
 					$("#feature").html(data);
