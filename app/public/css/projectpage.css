@@ -1,0 +1,14 @@
+h3{
+    border-bottom: 2px solid;
+}
+
+.project-page-body{
+    width: 120ch;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.project-page-title{
+    font-size: 1.7em;
+}

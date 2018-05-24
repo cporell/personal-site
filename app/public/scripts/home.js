@@ -9,7 +9,7 @@ load();
 function buildShowcaseTemplate(elt){
 	var templateStr = '<div class="homeBlock">';
 	templateStr += '<div class="homeContent">';
-	templateStr += '<a href="/projects/' + elt.title + '">';
+	templateStr += '<a href="/projects/' + elt.shortname + '">';
 	templateStr += '<img class="homePic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
     templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
     if(elt.desc.length > 55){

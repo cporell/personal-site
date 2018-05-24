@@ -1,0 +1,43 @@
+<div class="project-page-body">
+    <center class="project-page-title">Personal Worldbuilding Project - the World of Aotis</center>
+    <div class="project-page-info">
+        <p>
+            <h3>Long story short</h3> 
+            The World of Aotis is an ongoing project of mine, as I piece together
+            a fictional world starting from its inception up through its "present day," analogous to a more
+            fantastic version of a circa-2010s soiety. As such, Aotis' history ranges from prehistoric, 
+            to medieval, to contemporary. 
+        </p>
+        <p>
+            To learn more about it, I've compiled a 
+            <a href="https://aotis.wikia.com/wiki/World_of_Aotis_Wiki">Wikia</a> all about it.
+            This is a continously ongoing project, so the wiki is always growing, changing, and being updated,
+            so please forgive any incomplete, missing, or incorrect pages.
+        </p>
+        
+        <p> 
+            <h3>Inception</h3>
+            Creating the fictional world of Aotis has been a side project of mine only in recent memory, though the
+            earliest inklings of the project stretch back nearly 10 years.
+        </p>
+        <p>
+            I've had an interest in telling stories for most of my life. From my earliest experiences,
+            I would put little stories into notebooks, either through written word or just through pictures.
+            For most of my life, these were fairly disjoint little ventures, often a one-off vignette I thought
+            of or a small continuation of an existing work. These little episodes, by themselves, never
+            had much structure, but I always got joy out of interconnecting stories.
+        </p>
+        <p>
+            When I was in late high school, the first seeds of this project began in earnest. Though it did not
+            resemble anything close to what it is nowadays, parts of Aotis
+        </p>
+        <p>
+            It wasn't until a few years ago, when I read George R.R. Martin's <i>A Song of Ice and Fire</i> and 
+            discovered the Reddit commmunities /r/writing and /r/worldbuilding that I knew what this interest in
+            creating a fictional society was 
+        </p>
+        <p>
+            Hello this is a test
+        </p>
+    </div>    
+</div>

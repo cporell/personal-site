@@ -23,7 +23,7 @@ function load(){
 function buildProjectTemplate(elt){
 	var templateStr = '<div class="projectBlock">';
 	templateStr += '<div class="projectContent">';
-	templateStr += '<a href="/projects/' + elt.title + '">';
+	templateStr += '<a href="/projects/' + elt.shortname + '">';
 	templateStr += '<img class="projectPic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
 	templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
 	templateStr += '<span class="projectDesc">' + elt.desc + '</span></p>';

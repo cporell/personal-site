@@ -2,43 +2,43 @@
 	{
         "type": "subsites",
 		"img": "whats-new",
+		"shortname": "WhatsNewInWiz",
 		"title": "What's New in Wizard101",
 		"desc": "A catch-up for new/returning Wizard101 players, created for the /r/wizard101 community."
 	},
 	{
         "type": "projects",
 		"img": "infiltration",
+		"shortname": "Infiltration",
 		"title": "Community Infiltration",
 		"desc": "An investigative infiltration into an online community to research conflicts in said community."
 	},
 	{
         "type": "projects",
 		"img": "good_bad_difficulty",
+		"shortname": "GoodAndBadDifficulty",
 		"title": "Good and Bad Difficulty in Games",
 		"desc": "A talk given to WPI's Game Developers Association on the difference between good and bad difficulty in games."
 	},
 	{
         "type": "projects",
 		"img": "pathfinder1",
+		"shortname": "PFAdventure",
 		"title": "Pathfinder Adventure",
 		"desc": ""
 	},
 	{
         "type": "projects",
 		"img": "pathfinder1",
+		"shortname": "Aotis",
 		"title": "Personal Worldbuilding Project",
-		"desc": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet "
+		"desc": ""
 	},
 	{
         "type": "projects",
 		"img": "pathfinder1",
+		"shortname": "PFOneShotPM",
 		"title": "Pathfinder One-Shot Postmortem",
 		"desc": "Lorem ipsum dolor sit amet"
-	},
-	{
-        "type": "projects",
-		"img": "pathfinder1",
-		"title": "Personal Worldbuilding Project",
-		"desc": "personal project"
 	}
 ]
