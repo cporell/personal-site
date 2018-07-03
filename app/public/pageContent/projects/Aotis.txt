@@ -5,11 +5,11 @@
             <h3>Long story short</h3> 
             The World of Aotis is an ongoing project of mine, as I piece together
             a fictional world starting from its inception up through its "present day," analogous to a more
-            fantastic version of a circa-2010s soiety. As such, Aotis' history ranges from prehistoric, 
+            fantastic version of a circa-2010s society. As such, Aotis' history ranges from prehistoric, 
             to medieval, to contemporary. 
         </p>
         <p>
-            To learn more about it, I've compiled a 
+            To keep my notes organized, I've compiled a 
             <a href="https://aotis.wikia.com/wiki/World_of_Aotis_Wiki">Wikia</a> all about it.
             This is a continously ongoing project, so the wiki is always growing, changing, and being updated,
             so please forgive any incomplete, missing, or incorrect pages.
