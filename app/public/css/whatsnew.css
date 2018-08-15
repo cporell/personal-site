@@ -9,7 +9,9 @@
   }
 
   #whats-new-updates {
-    
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
   }
   
   /* The actual timeline (the vertical ruler) */
