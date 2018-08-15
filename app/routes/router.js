@@ -1,7 +1,5 @@
-var express = require('express');
-var path = require('path');
-
-var aboutController = require('../controllers/aboutController');
+var express = require('express'),
+	path = require('path');
 
 var router = express.Router();
 
@@ -30,24 +28,16 @@ router.get('/projects', function(req, res){
 	res.render('pages/projects', {title: 'Other Projects'});
 });
 
+// router.get('/projects/:id', function(req, res){
+// 	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
+// });
+
 router.get('/projects/:id', function(req, res){
-	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
+	res.render('pages/projectpage', {title: req.params.id});	
 });
 
 router.get('/contact', function(req, res){
 	res.render('pages/contact', {title: 'Contact Me'});
-});
-
-router.get('/subsites', function(req, res){
-	res.render('pages/subsitelist', {title: 'Subsites'});
-});
-
-router.get('/hottakes', function(req, res){
-	res.render('pages/subsites/got_hot_takes/gothottakes', {title: 'R501\'s Hottest GoT Theories'});
-});
-
-router.get('/sprints', function(req, res){
-	res.render('pages/subsites/sprints_til_xmas/sprintsuntilxmas', {title: 'Sprints Until Christmas'});
 });
 
 router.get('/whats-new', function(req, res){
@@ -55,7 +45,11 @@ router.get('/whats-new', function(req, res){
 });
 
 router.get('/whats-new/:id', function(req, res){
-	res.render('/pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
+	res.render('pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
+})
+
+router.get('/dbtest', function(req, res){
+	res.render('pages/projectpage', {title: 'DBtest'});
 })
 
 router.get('/*', function(req, res){

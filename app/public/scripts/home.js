@@ -9,12 +9,7 @@ load();
 function buildShowcaseTemplate(elt){
 	var templateStr = '<div class="homeBlock">';
 	templateStr += '<div class="homeContent">';
-	if(elt.type != 'subsites'){
-		templateStr += '<a href="/' + elt.type + '/' + elt.title + '">';
-	}
-	else {
-		templateStr += '<a href="/' + elt.img + '">';
-	}
+	templateStr += '<a href="/projects/' + elt.shortname + '">';
 	templateStr += '<img class="homePic" src="/app/public/images/coverimages/' + elt.img + '.png"><br/>';
     templateStr += '<p><span class="title">' + elt.title + '</span><br/>';
     if(elt.desc.length > 55){
