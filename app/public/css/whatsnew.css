@@ -1,17 +1,33 @@
+@font-face{
+	font-family: corbel;
+	src: url(/app/public/fonts/corbel.ttf);
+}
+
 * {
     box-sizing: border-box;
   }
   
   /* Set a background color */
   body {
-    background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
+    /* background-color: #474e5d; */
+    /* background-color: #ffe6b3; */
+    background-image: linear-gradient(#ffe6b3, #FFcc66);
+    background-attachment: fixed;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: corbel;
+  }
+
+  #whats-new-header {
+    font-size: 3em;
+    margin: .35em;
   }
 
   #whats-new-updates {
     display: block;
     margin: 0 auto;
     margin-bottom: 1em;
+    font-family: corbel;
+    font-size: 1.4em;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -49,7 +65,8 @@
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    /* border: 4px solid #FF9F55; */
+    border: 4px solid #990099;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -104,6 +121,7 @@
     background-color: white;
     position: relative;
     border-radius: 6px;
+    border: 1px solid white;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -147,14 +165,15 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    background-color: #ac39ac; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    font-family: corbel;
+    font-size: 2em; /* Increase font size */
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #4d194d; /* Add a dark-grey background on hover */
 }
