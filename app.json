@@ -2,6 +2,6 @@
 	"name": "Connor's Personal Site",
 	"description": "A simple website used for my portfolio and links to other projects.",
 	"repository": "https://github.com/cporell/personal-site",
-	"logo": "https://connor-personal-site.herokuapp.com/public/rudolf.png",
+	"logo": "https://connor-personal-site.herokuapp.com/public/images/index.png",
 	"keywords": ["node", "express", "static"]
 }

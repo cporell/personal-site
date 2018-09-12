@@ -32,6 +32,10 @@ router.get('/projects', function(req, res){
 // 	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
 // });
 
+router.get('/projects/WhatsNewInWiz', function(req, res){
+	res.render('pages/subsites/whats_new_in_wiz/whatsnew', {title: 'What\'s New in Wizard101'});
+});
+
 router.get('/projects/:id', function(req, res){
 	res.render('pages/projectpage', {title: req.params.id});	
 });
