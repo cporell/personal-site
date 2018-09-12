@@ -1,0 +1,18 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+}
+
+#links {
+    display: inline-flex;
+    list-style-type: none;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+#links li {
+    display: inline;
+	margin-right: 8px;
+    position: relative;
+}

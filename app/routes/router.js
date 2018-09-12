@@ -56,6 +56,10 @@ router.get('/dbtest', function(req, res){
 	res.render('pages/projectpage', {title: 'DBtest'});
 })
 
+router.get('/newhome', function(req, res){
+	res.render('pages/newhome', {title: 'Home'});
+});
+
 router.get('/*', function(req, res){
 	res.render('pages/404page', {title:'Page not found'});
 });
