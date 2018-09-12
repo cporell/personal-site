@@ -11,7 +11,7 @@
   body {
     /* background-color: #474e5d; */
     /* background-color: #ffe6b3; */
-    background-image: linear-gradient(#ffe6b3, #FFcc66);
+    background-image: linear-gradient(#ffe6b5, #FFcc66);
     background-attachment: fixed;
     /* font-family: Helvetica, sans-serif; */
     font-family: corbel;
@@ -165,7 +165,7 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #ac39ac; /* Set a background color */
+    background-color: #3d9999; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
