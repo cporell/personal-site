@@ -1,6 +1,38 @@
+/** Colors
+*   http://paletton.com/#uid=53o0u0kcKwCkv81-Cr90QIo22+R
+*   #EFFBFF
+*   #c2c6c7
+*   #6393A1
+*   #046a87
+*   #0f2228
+*/
+
+/* Font for headers */
+@font-face{
+	font-family: comfortaa;
+	src: url(/app/public/fonts/Comfortaa.ttf);
+}
+
+/* Font for body text, etc. */
+@font-face{
+	font-family: corbel;
+	src: url(/app/public/fonts/corbel.ttf);
+}
+
 body {
+    font-family: comfortaa;
+    background: #c2c6c7;
     margin: 0 auto;
     width: 600px;
+}
+
+#header {
+    border-bottom: solid 2px #6393a0;
+    margin-bottom: 15px;
+}
+
+#header strong {
+    font-size: 2.2em;
 }
 
 #links {
@@ -9,10 +41,36 @@ body {
     margin: auto;
     position: relative;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 #links li {
+    font-size: 1.2em;
     display: inline;
-	margin-right: 8px;
+	margin-right: 16px;
     position: relative;
+}
+
+#links a {
+    text-decoration: none;
+    color: #0f2228;
+}
+
+#homeprojects {
+    border-top: solid 3px #046A87;
+}
+
+.project {
+    border-bottom: solid 3px #046A87;
+}
+
+.project img {
+    width: 160px;
+    height: 160px;
+    display: block;
+}
+
+footer {
+    font-size: .8em;
+    padding-bottom: 3px;
 }

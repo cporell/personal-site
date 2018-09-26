@@ -4,8 +4,12 @@ var express = require('express'),
 var router = express.Router();
 
 // load the main page on reaching the base dir
+// router.get('/', function(req, res){
+// 	res.render('pages/home', {title: 'Home'});
+// });
+
 router.get('/', function(req, res){
-	res.render('pages/home', {title: 'Home'});
+	res.render('pages/newhome', {title: 'Home'});
 });
 
 router.get('/about', function(req, res){
@@ -55,10 +59,6 @@ router.get('/whats-new/:id', function(req, res){
 router.get('/dbtest', function(req, res){
 	res.render('pages/projectpage', {title: 'DBtest'});
 })
-
-router.get('/newhome', function(req, res){
-	res.render('pages/newhome', {title: 'Home'});
-});
 
 router.get('/*', function(req, res){
 	res.render('pages/404page', {title:'Page not found'});
