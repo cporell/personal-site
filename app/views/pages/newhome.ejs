@@ -26,7 +26,7 @@
                 proud of or are works that I feel reflect my interests the best. For a more complete list,
                 follow the "Projects" link above.
                 <div id="homeprojects">
-                    <div class="project">
+                    <!-- <div class="project">
                         <p> <strong>Storybook</strong> by Emory Blackstone, Nathan Bryant, Benny Peake, and Connor Porell</p>
                         <p> <a href="/projects/Storybook"><img src="/app/public/images/coverimages/Storybook.png"></a></p>
                         <p><strong>An online, cooperative multiplayer experience</strong></p>
@@ -45,7 +45,7 @@
                             of years of history, based on numerous sources including real-life world history with strong 
                             inspirations from mythology and prehistory as well.
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </p>
         </div>
@@ -53,4 +53,27 @@
             Copyright &copy; 2016-2018 Connor Porell cgporell@gmail.com
         <footer>
     </body>
+    <script type="text/javascript">
+        function buildProjectBlock(elt) {
+            var templateStr = '<div class="project">';
+                templateStr += '<p> <strong>' + elt.title + '</strong> by ' + elt.author + ' </p>';
+                templateStr += '<p> <a href="/projects/' + elt.shortName + '"> <img src="/app/public/images/coverimages/' + elt.image + '.png"> </a> </p>';
+                templateStr += '<p> <strong>' + elt.descriptionShort + '</strong> </p>';
+                templateStr += '<p>' + elt.descriptionLong + '</p>';
+                templateStr += '</div>';
+            return templateStr;
+        }
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+                var myarr = JSON.parse(this.responseText);
+                myarr.forEach(function(elt){
+                    document.getElementById('homeprojects').innerHTML += buildProjectBlock(elt);
+                });
+            }
+        };
+        xmlhttp.open("GET", "/app/public/pageContent/showcase2.txt", true);
+        xmlhttp.send();
+    </script>
 </html>

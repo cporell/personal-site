@@ -1,0 +1,66 @@
+[
+	{
+		"title": "Storybook",
+		"author": "Emory Blackstone, Nathan Bryant, Benny Peake, and Connor Porell",
+		"shortName": "Storybook",
+		"image": "Storybook",
+		"descriptionShort": "An online, cooperative multiplayer experience",
+		"descriptionLong": "In <i>Storybook</i>, players and their friends take on the role of one of 4 representatives of a literary genre - Horror, Comic, Sci-Fi, or Fantasy - and collect pages of a mystical book that are used to build levels and thwart enemies. This game was the result of our Major Qualifying Project our senior year at Worcester Polytechnic Institute."
+	},
+	{
+		"title": "Personal Worldbuilding Project",
+		"author": "Connor Porell",
+		"shortName": "Aotis",
+		"image": "pathfinder1",
+		"descriptionShort": "My personal worldbuilding project",
+		"descriptionLong": "The world of Aotis has been a pet project of mine for a few years now, though it is only recently that I started to put my thoughts down into actual words. Aotis is a fantasy world with thousands of years of history, based on numerous sources including real-life world history with strong inspirations from mythology and prehistory as well."
+	},
+	{
+		"title": "DoubleVision",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "doublevision",
+		"image": "doublevision",
+		"descriptionShort": "Learn to cooperate with yourself",
+		"descriptionLong": "<i>DoubleVision</i> is a single player puzzle game in which the player controls a pair of avatars, constantly swapping back and forth between the two in order to have their actions synergize to solve puzzles."
+	},
+	{
+		"title": "Catacomb Crawler",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "CatacombCrawler",
+		"image": "catacomb",
+		"descriptionShort": "A dungeon crawler built virtually from scratch",
+		"descriptionLong": "<i>Catacomb Crawler</i> is a top down dungeon crawler built from the ground up as part of learning how to build a game engine using the <a href='http://dragonfly.wpi.edu/'><i>Dragonfly</i></a> game engine."
+	},
+	{
+		"title": "What's New in Wizard101?",
+		"author": "Connor Porell",
+		"shortName": "WhatsNewInWiz",
+		"image": "whats-new",
+		"descriptionShort": "A guide for returning players of <i>Wizard101</i>",
+		"descriptionLong": "Created for the <a href='http://reddit.com/r/wizard101'>reddit community</a> of Kingsisle's MMORPG <a href='http://wizard101.com'> <i>Wizard101</i></a>, this site serves as a way for returning players to quickly apprise themselves of what has changed in the game since they last played. This is a simple subsite that merely compiles the game's update notes into a more highlighted and succinct format, but one I hope serves some value to the commmunity."
+	},
+	{
+		"title": "Pathfinder One-Shot Post-Mortem",
+		"author": "Connor Porell",
+		"shortName": "PFOneShotPM",
+		"image": "pathfinder1",
+		"descriptionShort": "A post-mortem of the first time I ever DM-ed a game of <i>Pathfinder</i>",
+		"descriptionLong": "This is a small piece of writing I made in order to reflect on the first time I DM-ed in <i>Pathfinder<i>, recounting the successes, failures, and lessons learned from that session; as well as how I would correct some of the mistakes I made running that particular game."
+	},
+	{
+		"title": "Good and Bad Difficulty in Games",
+		"author": "Connor Porell",
+		"shortName": "GoodAndBadDifficulty",
+		"image": "good_bad_difficulty",
+		"descriptionShort": "A breakdown of 'Good' vs. 'Bad' difficulty in games",
+		"descriptionLong": "Near the end of my senior year at WPI, I gave an informal talk at a weekly meeting of their Game Developers' Association, going over examples of what I considered to be well- or poorly-implemented difficulty measures in various games, and how, as game developers, we can learn from those examples when toning the difficulty curve of our own games. The slides are original; however, the audio has been re-recorded, as the original has been lost."
+	},
+	{
+		"title": "A Threat From the North - An Age of Empires 2 Scenario",
+		"author": "Connor Porell",
+		"shortName": "ThreatFromTheNorth",
+		"image": "aoe2scen1",
+		"descriptionShort": "A custom scenario for <i>Age of Empires 2</i>",
+		"descriptionLong": "This scenario was one of my first forays into serious scenario making for <i>Age of Empires 2</i>. While certainly not a masterpiece compared to other works put out by the community, this scenario was a sort of playground for me with trying out different objective types, more complex triggers, designing a mission in several distinct parts."
+	}
+]
