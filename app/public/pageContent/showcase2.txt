@@ -45,7 +45,7 @@
 		"shortName": "PFOneShotPM",
 		"image": "pathfinder1",
 		"descriptionShort": "A post-mortem of the first time I ever DM-ed a game of <i>Pathfinder</i>",
-		"descriptionLong": "This is a small piece of writing I made in order to reflect on the first time I DM-ed in <i>Pathfinder<i>, recounting the successes, failures, and lessons learned from that session; as well as how I would correct some of the mistakes I made running that particular game."
+		"descriptionLong": "This is a small piece of writing I made in order to reflect on the first time I DM-ed in <i>Pathfinder</i>, recounting the successes, failures, and lessons learned from that session; as well as how I would correct some of the mistakes I made running that particular game."
 	},
 	{
 		"title": "Good and Bad Difficulty in Games",

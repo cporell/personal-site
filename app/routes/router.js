@@ -29,8 +29,12 @@ router.get('/games/:id', function(req, res){
 });
 
 router.get('/projects', function(req, res){
-	res.render('pages/projects', {title: 'Other Projects'});
+	res.render('pages/newprojects', {title: 'Projects'});
 });
+
+router.get('/writing', function(req, res){
+	res.render('pages/writing', {title: 'Writing'});
+})
 
 // router.get('/projects/:id', function(req, res){
 // 	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
