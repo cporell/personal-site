@@ -1,6 +1,6 @@
 {
   "name": "connor-personal-site",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "A simple personal site with links to my projects and other works",
   "main": "server.js",
   "scripts": {

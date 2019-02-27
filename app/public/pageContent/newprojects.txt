@@ -1,0 +1,130 @@
+[
+	{
+		"title": "Storybook",
+		"author": "Emory Blackstone, Nathan Bryant, Benny Peake, and Connor Porell",
+		"shortName": "Storybook",
+		"image": "Storybook",
+		"descriptionShort": "An online, cooperative multiplayer experience",
+		"descriptionLong": "In <i>Storybook</i>, players and their friends take on the role of one of 4 representatives of a literary genre - Horror, Comic, Sci-Fi, or Fantasy - and collect pages of a mystical book that are used to build levels and thwart enemies. This game was the result of our Major Qualifying Project our senior year at Worcester Polytechnic Institute."
+	},
+	{
+		"title": "Personal Worldbuilding Project",
+		"author": "Connor Porell",
+		"shortName": "Aotis",
+		"image": "pathfinder1",
+		"descriptionShort": "My personal worldbuilding project",
+		"descriptionLong": "The world of Aotis has been a pet project of mine for a few years now, though it is only recently that I started to put my thoughts down into actual words. Aotis is a fantasy world with thousands of years of history, based on numerous sources including real-life world history with strong inspirations from mythology and prehistory as well."
+	},
+	{
+		"title": "DoubleVision",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "doublevision",
+		"image": "doublevision",
+		"descriptionShort": "Learn to cooperate with yourself",
+		"descriptionLong": "<i>DoubleVision</i> is a single player puzzle game in which the player controls a pair of avatars, constantly swapping back and forth between the two in order to have their actions synergize to solve puzzles."
+	},
+	{
+		"title": "Catacomb Crawler",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "CatacombCrawler",
+		"image": "catacomb",
+		"descriptionShort": "A dungeon crawler built virtually from scratch",
+		"descriptionLong": "<i>Catacomb Crawler</i> is a top down dungeon crawler built from the ground up as part of learning how to build a game engine using the <a href='http://dragonfly.wpi.edu/'><i>Dragonfly</i></a> game engine."
+	},
+	{
+		"title": "What's New in Wizard101?",
+		"author": "Connor Porell",
+		"shortName": "WhatsNewInWiz",
+		"image": "whats-new",
+		"descriptionShort": "A guide for returning players of <i>Wizard101</i>",
+		"descriptionLong": "Created for the <a href='http://reddit.com/r/wizard101'>reddit community</a> of Kingsisle's MMORPG <a href='http://wizard101.com'> <i>Wizard101</i></a>, this site serves as a way for returning players to quickly apprise themselves of what has changed in the game since they last played. This is a simple subsite that merely compiles the game's update notes into a more highlighted and succinct format, but one I hope serves some value to the commmunity."
+	},
+	{
+		"title": "Pathfinder One-Shot Post-Mortem",
+		"author": "Connor Porell",
+		"shortName": "PFOneShotPM",
+		"image": "pathfinder1",
+		"descriptionShort": "A post-mortem of the first time I ever DM-ed a game of <i>Pathfinder</i>",
+		"descriptionLong": "This is a small piece of writing I made in order to reflect on the first time I DM-ed in <i>Pathfinder</i>, recounting the successes, failures, and lessons learned from that session; as well as how I would correct some of the mistakes I made running that particular game."
+	},
+	{
+		"title": "Good and Bad Difficulty in Games",
+		"author": "Connor Porell",
+		"shortName": "GoodAndBadDifficulty",
+		"image": "good_bad_difficulty",
+		"descriptionShort": "A breakdown of 'Good' vs. 'Bad' difficulty in games",
+		"descriptionLong": "Near the end of my senior year at WPI, I gave an informal talk at a weekly meeting of their Game Developers' Association, going over examples of what I considered to be well- or poorly-implemented difficulty measures in various games, and how, as game developers, we can learn from those examples when toning the difficulty curve of our own games. The slides are original; however, the audio has been re-recorded, as the original has been lost."
+	},
+	{
+		"title": "A Threat From the North - An Age of Empires 2 Scenario",
+		"author": "Connor Porell",
+		"shortName": "ThreatFromTheNorth",
+		"image": "aoe2scen1",
+		"descriptionShort": "A custom scenario for <i>Age of Empires 2</i>",
+		"descriptionLong": "This scenario was one of my first forays into serious scenario making for <i>Age of Empires 2</i>. While certainly not a masterpiece compared to other works put out by the community, this scenario was a sort of playground for me with trying out different objective types, more complex triggers, designing a mission in several distinct parts."
+	},
+	{
+		"title": "Community Infiltration",
+		"author": "Connor Porell",
+		"shortName": "Infiltration",
+		"image": "infiltration",
+		"descriptionShort": "A deep-dive into issues facing an online community.",
+		"descriptionLong": "This presentation was the product of an assignment from a course on Social Issues in Games. The goal of the assignment was to join or monitor an online community, report on an issue that community was facing, and discuss ways in which the community might try to solve that issue. For my infiltration, I went to the Wizard101 forums and reported on PvP balancing issues players were concerned about at the time."
+	},
+	{
+		"title": "Pathfinder Adventure 1",
+		"author": "Connor Porell",
+		"shortName": "PFAdventure",
+		"image": "pathfinder1",
+		"descriptionShort": "A custom <i>Pathfinder</i> adventure made for low-level players.",
+		"descriptionLong": "This was the product of an assignment from a course on Storytelling in Games. We were tasked with first playing a 1st-level adventure in <i>Pathfinder</i>, then writing our own adventure afterwards. This was one my first forays into creating content for a game rather than consuming, and it incited my interest about running <i>Pathfinder</i> games."
+	},
+	{
+		"title": "Feudal Footpads",
+		"author": "Nathan Bryant, John Guerra, and Connor Porell",
+		"shortName": "FeudalFootpads",
+		"image": "feudalfootpads",
+		"descriptionShort": "An Eastern-style stealth-based adventure.",
+		"descriptionLong": "<i>Feudal Footpads</i> was the product of the course project for a course in Technical Game Development. This game was a sort of technical playground, with Nathan and I implementing different features based on class material, such as camera zoning, state machine AI, ray-based line of sight, and a hand-made A* pathfinding algorithm."
+	},
+	{
+		"title": "MazeMaker",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "MazeMaker",
+		"image": "mazemaker",
+		"descriptionShort": "An exploratory entry to the <i>Perlenspiel</i> engine.",
+		"descriptionLong": "<i>Maze Maker</i> was the first \"game\" we created for <i>Perlenspiel</i>. The assignment was to create a toy (something that has no technical end/win condition), so our original plan of building an endless maze game was adapted into a maze builder, complete with verification for solvability."
+	},
+	{
+		"title": "Steady Stacking",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "SteadyStacking",
+		"image": "stacking",
+		"descriptionShort": "A calm, atmospheric title based on building cairns.",
+		"descriptionLong": "The prompt behind <i>Steady Stacking</i> was to create an abstract game, one without hard physical elements or a serious win/loss condition. In keeping with the calm nature of the prompt, we created a Tetris-like game of block stacking, where there is really no true \"game over,\" only delays in reaching a goal. A gradual day-night cycle and calm music helps to instill an atmosphere of easiness in the player."
+	},
+	{
+		"title": "Ragnarok",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "Ragnarok",
+		"image": "ragnarok",
+		"descriptionShort": "An interactive retelling of the Norse endtimes.",
+		"descriptionLong": "<i>Ragnarok</i> was our response to the prompt: \"Create an epic game.\" Borrowing the double-player mechanic from <i>DoubleVision</i>, we created a fast-paced adventure where the player controls the last two humans in Norse mythology as they attempt to escape giants, Loki's monsters, and the world collapsing under them, with the end goal of reaching safety to thrive once the endtimes are over."
+	},
+	{
+		"title": "Space Swiper",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "SpaceSwiper",
+		"image": "spaceswiper",
+		"descriptionShort": "Touch-based controls grace this space-themed puzzler.",
+		"descriptionLong": "The touch controls behind <i>Space Swiper</i> were essential, as the prompt for this game was to create a mobile-friendly game. Using the finger to move objects around the screen by swiping came about pretty naturally when we decided we wanted to make a puzzler with satisfying feedback."
+	},
+	{
+		"title": "Manic Mini-Golf",
+		"author": "Nathan Bryant and Connor Porell",
+		"shortName": "ManicMiniGolf",
+		"image": "minigolf",
+		"descriptionShort": "A mobile-focused touch-based mini-golf game.",
+		"descriptionLong": "<i>Manic Mini-Golf</i> was designed to be played on mobile phones, as the player controls the power and direction of their ball by holding their finger back - those familiar with the control scheme of games like <i>Angry Birds</i> will find <i>Manic Mini-Golf's</i> controls to be very similar."
+	}
+]

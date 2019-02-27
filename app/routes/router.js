@@ -4,8 +4,12 @@ var express = require('express'),
 var router = express.Router();
 
 // load the main page on reaching the base dir
+// router.get('/', function(req, res){
+// 	res.render('pages/home', {title: 'Home'});
+// });
+
 router.get('/', function(req, res){
-	res.render('pages/home', {title: 'Home'});
+	res.render('pages/newhome', {title: 'Home'});
 });
 
 router.get('/about', function(req, res){
@@ -13,7 +17,7 @@ router.get('/about', function(req, res){
 });
 
 router.get('/resume', function(req, res){
-	res.render('pages/resume', {title: 'Skills and Experience'});
+	res.render('pages/newresume', {title: 'Skills and Experience'});
 });
 
 router.get('/games', function(req, res){
@@ -25,8 +29,12 @@ router.get('/games/:id', function(req, res){
 });
 
 router.get('/projects', function(req, res){
-	res.render('pages/projects', {title: 'Other Projects'});
+	res.render('pages/newprojects', {title: 'Projects'});
 });
+
+router.get('/writing', function(req, res){
+	res.render('pages/writing', {title: 'Writing'});
+})
 
 // router.get('/projects/:id', function(req, res){
 // 	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
