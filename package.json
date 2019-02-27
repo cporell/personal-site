@@ -1,6 +1,6 @@
 {
   "name": "connor-personal-site",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple personal site with links to my projects and other works",
   "main": "server.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "4.15.3",
-    "fs": "0.0.1-security",
     "path": "^0.12.7",
     "underscore": "^1.8.3"
   },

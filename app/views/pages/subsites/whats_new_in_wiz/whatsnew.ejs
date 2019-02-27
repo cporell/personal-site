@@ -3,8 +3,11 @@
         <% include head %>
 	</head>
 	<body>
-        <h1>Everything!</h1>
-        <!--<img src="/app/public/images/everything.gif" alt="Everything" />-->
+		<center id="whats-new-header">What's New in Wizard101?</center>
+		<select id="whats-new-updates" onchange="location = this.value"></select>
+		<div class="timeline" id="whats-new-timeline"></div>
+		<button onclick="topFunction()" id="myBtn" title="Return to Top">Top</button>
 	</body>
-	<script type="text/javascript" src="/app/public/scripts/subsites/whatsnew.js"/>
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="/app/public/scripts/subsites/whatsnew.js"></script>
 </html>

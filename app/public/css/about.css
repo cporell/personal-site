@@ -1,0 +1,21 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.aboutBlock {
+
+}
+
+.aboutDetails {
+    margin-right: 15%;
+    margin-left: .6em;
+    padding-bottom: .75em;
+}
+
+ul{
+    margin-top: 0;
+}

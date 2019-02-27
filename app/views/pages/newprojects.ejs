@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <title>Connor Porell | Projects</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/app/public/css/newmain.css">
+        <link rel="shortcut icon" href="">
+    </head>
+    <body>
+        <% include ../partials/newHeader.ejs %>
+
+        <div id="main">
+            <p>Text about me goes here.</p>
+            <p>Maybe some more about me.</p>
+            <p>
+                Here you can find a complete list of projects I have worked on that I feel are worth showing off. They were either
+                developed as part of coursework for my undergrad or as a side project.
+                <div id="homeprojects">
+                </div>
+            </p>
+        </div>
+
+        <% include ../partials/newFooter.ejs %>
+    </body>
+    <script type="text/javascript">
+        function buildProjectBlock(elt) {
+            var templateStr = '<div class="project">';
+                templateStr += '<p> <strong>' + elt.title + '</strong> by ' + elt.author + ' </p>';
+                templateStr += '<p> <a href="/projects/' + elt.shortName + '"> <img src="/app/public/images/coverimages/' + elt.image + '.png"> </a> </p>';
+                templateStr += '<p> <strong>' + elt.descriptionShort + '</strong> </p>';
+                templateStr += '<p>' + elt.descriptionLong + '</p>';
+                templateStr += '</div>';
+            return templateStr;
+        }
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+                var myarr = JSON.parse(this.responseText);
+                myarr.forEach(function(elt){
+                    document.getElementById('homeprojects').innerHTML += buildProjectBlock(elt);
+                });
+            }
+        };
+        xmlhttp.open("GET", "/app/public/pageContent/newprojects.txt", true);
+        xmlhttp.send();
+    </script>
+</html>

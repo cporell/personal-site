@@ -1,51 +1,71 @@
 [
 	{
+		"type": "games",
 		"img": "doublevision",
+		"shortname": "DoubleVision",
 		"title": "Double Vision",
 		"desc": "A 2-player puzzler... for 1 person"
 	},
 	{
+		"type": "games",
 		"img": "catacomb",
+		"shortname": "CatacombCrawler",
 		"title": "Catacomb Crawler",
 		"desc": "A dungeon crawler built from scratch in C++"
 	},
 	{
+		"type": "games",
 		"img": "storybook",
+		"shortname": "Storybook",
 		"title": "Storybook",
 		"desc": "A multiplayer dungeon-crawling experience"
 	},
 	{
+		"type": "games",
 		"img": "ragnarok",
+		"shortname": "Ragnarok",
 		"title": "Ragnarok",
 		"desc": "An interactive retelling of the Norse endtimes"
 	},
 	{
+		"type": "games",
 		"img": "aoe2scen1",
+		"shortname": "ThreatFromTheNorth",
 		"title": "A Threat from the North",
 		"desc": "A custom scenario for <i>Age of Empires 2</i>"
 	},
 	{
+		"type": "games",
 		"img": "feudalfootpads",
+		"shortname": "FeudalFootpads",
 		"title": "Feudal Footpads",
 		"desc": "An Eastern-style stealth-based adventure"
 	},
 	{
+		"type": "games",
 		"img": "spaceswiper",
+		"shortname": "SpaceSwiper",
 		"title": "Space Swiper",
 		"desc": "Touch controls grace this space-themed puzzler"
 	},
 	{
+		"type": "games",
 		"img": "mazemaker",
+		"shortname": "MazeMaker",
 		"title": "Maze Maker",
 		"desc": "An exploratory entry to the <i>Perlenspiel</i> engine"
 	},
 	{
+		"type": "games",
 		"img": "stacking",
+		"shortname": "SteadyStacking",
 		"title": "Steady Stacking",
 		"desc": "A calm, atmospheric title based on cairns"
 	},
 	{
+		"type": "games",
 		"img": "minigolf",
+		"shortname": "ManicMiniGolf",
 		"title": "Manic Mini-Golf",
 		"desc": "A mobile-focused touch-based mini-golf game"
 	}

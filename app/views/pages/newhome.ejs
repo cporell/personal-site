@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <title>Connor Porell | Home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/app/public/css/newmain.css">
+        <link rel="shortcut icon" href="">
+    </head>
+    <body>
+        <% include ../partials/newHeader.ejs %>
+
+        <div id="main">
+            <p>Text about me goes here.</p>
+            <p>Maybe some more about me.</p>
+            <p>
+                Below are some of my personal highlights for projects. They reflect the works I am most 
+                proud of or are works that I feel reflect my interests the best. For a more complete list,
+                follow the "Projects" link above.
+                <div id="homeshowcase">
+                </div>
+            </p>
+        </div>
+
+        <% include ../partials/newFooter.ejs %>
+    </body>
+    <script type="text/javascript">
+        function buildProjectBlock(elt) {
+            var templateStr = '<div class="project">';
+                templateStr += '<p> <strong>' + elt.title + '</strong> by ' + elt.author + ' </p>';
+                templateStr += '<p> <a href="/projects/' + elt.shortName + '"> <img src="/app/public/images/coverimages/' + elt.image + '.png"> </a> </p>';
+                templateStr += '<p> <strong>' + elt.descriptionShort + '</strong> </p>';
+                templateStr += '<p>' + elt.descriptionLong + '</p>';
+                templateStr += '</div>';
+            return templateStr;
+        }
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+                var myarr = JSON.parse(this.responseText);
+                myarr.forEach(function(elt){
+                    document.getElementById('homeshowcase').innerHTML += buildProjectBlock(elt);
+                });
+            }
+        };
+        xmlhttp.open("GET", "/app/public/pageContent/showcase2.txt", true);
+        xmlhttp.send();
+    </script>
+</html>

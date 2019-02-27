@@ -1,17 +1,23 @@
-var express = require('express');
-var path = require('path');
-
-var aboutController = require('../controllers/aboutController');
+var express = require('express'),
+	path = require('path');
 
 var router = express.Router();
 
 // load the main page on reaching the base dir
+// router.get('/', function(req, res){
+// 	res.render('pages/home', {title: 'Home'});
+// });
+
 router.get('/', function(req, res){
-	res.render('pages/home', {title: 'Home'});
+	res.render('pages/newhome', {title: 'Home'});
 });
 
 router.get('/about', function(req, res){
 	res.render('pages/about', {title: 'About Me'});
+});
+
+router.get('/resume', function(req, res){
+	res.render('pages/newresume', {title: 'Skills and Experience'});
 });
 
 router.get('/games', function(req, res){
@@ -23,31 +29,39 @@ router.get('/games/:id', function(req, res){
 });
 
 router.get('/projects', function(req, res){
-	res.render('pages/projects', {title: 'Other Projects'});
+	res.render('pages/newprojects', {title: 'Projects'});
+});
+
+router.get('/writing', function(req, res){
+	res.render('pages/writing', {title: 'Writing'});
+})
+
+// router.get('/projects/:id', function(req, res){
+// 	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
+// });
+
+router.get('/projects/WhatsNewInWiz', function(req, res){
+	res.render('pages/subsites/whats_new_in_wiz/whatsnew', {title: 'What\'s New in Wizard101'});
 });
 
 router.get('/projects/:id', function(req, res){
-	res.render('pages/projects/' + req.params.id, {title: req.params.id});	
+	res.render('pages/projectpage', {title: req.params.id});	
 });
 
 router.get('/contact', function(req, res){
 	res.render('pages/contact', {title: 'Contact Me'});
 });
 
-router.get('/hottakes', function(req, res){
-	res.render('pages/subsites/got_hot_takes/gothottakes', {title: 'R501\'s Hottest GoT Theories'});
-})
-
-router.get('/sprints', function(req, res){
-	res.render('pages/subsites/sprints_til_xmas/sprintsuntilxmas', {title: 'Sprints Until Christmas'});
-})
-
 router.get('/whats-new', function(req, res){
 	res.render('pages/subsites/whats_new_in_wiz/whatsnew', {title: 'What\'s New in Wizard101'});
 });
 
 router.get('/whats-new/:id', function(req, res){
-	res.render('/pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
+	res.render('pages/subsites/whats_new_in_wiz/' + req.params.id, {title: req.params.id});
+})
+
+router.get('/dbtest', function(req, res){
+	res.render('pages/projectpage', {title: 'DBtest'});
 })
 
 router.get('/*', function(req, res){

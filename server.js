@@ -1,10 +1,10 @@
-var express = require('express');
-var path = require('path');
+var express = require('express'),
+	path = require('path');
 
 var router = require('./app/routes/router');
 
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4000;
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/app/views');

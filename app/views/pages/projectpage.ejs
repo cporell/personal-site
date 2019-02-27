@@ -1,0 +1,42 @@
+<html lang="en">
+	<head>
+		<% include ../partials/head %>
+		<link rel="stylesheet" type="text/css" href="/app/public/css/projects.css">
+        <link rel="stylesheet" type="text/css" href="/app/public/css/projectpage.css">
+		<script type="text/javascript" src="/app/public/scripts/lib/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<div class="fullpage">
+			<% include ../partials/header %>
+			<section class="container">
+				<article id="feature">
+				</article>
+			</section>
+			<hr />
+			<% include ../partials/footer %>
+		</div>
+	</body>
+	<script>
+		setPageContent();
+
+		function setPageContent(){
+			$(function(){
+
+				// https://stackoverflow.com/questions/5047906/how-to-detect-jquery-get-failure-seeking-simple-code-example
+				// https://meyerweb.com/eric/articles/webrev/199904.html
+				// Move error-checking to the Router
+				
+				var path = '/app/public/pageContent/projects/' + $(document).find("title").text() + '.txt';
+				$.get(path, function(data){
+					$("#feature").html(data);
+				}, 'text');
+				/*
+				var path = '/app/public/pageContent/projects/' + $(document).find("title").text() + '.html';
+				$.get(path, function(data){
+					$("#feature").html(data);
+				}, 'text');
+				*/
+			});
+		}
+	</script>
+</html>
