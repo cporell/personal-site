@@ -17,7 +17,7 @@ router.get('/about', function(req, res){
 });
 
 router.get('/resume', function(req, res){
-	res.render('pages/resume', {title: 'Skills and Experience'});
+	res.render('pages/newresume', {title: 'Skills and Experience'});
 });
 
 router.get('/games', function(req, res){

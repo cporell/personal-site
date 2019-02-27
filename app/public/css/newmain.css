@@ -19,6 +19,7 @@
 	src: url(/app/public/fonts/corbel.ttf);
 }
 
+/* General */
 body {
     font-family: comfortaa;
     background: #c2c6c7;
@@ -73,4 +74,23 @@ body {
 footer {
     font-size: .8em;
     padding-bottom: 3px;
+}
+
+/* For Resume */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.aboutDetails {
+    margin-right: 15%;
+    margin-left: .6em;
+    padding-bottom: .75em;
+}
+
+ul{
+    margin-top: 0;
 }

@@ -15,7 +15,7 @@
                 Below are some of my personal highlights for projects. They reflect the works I am most 
                 proud of or are works that I feel reflect my interests the best. For a more complete list,
                 follow the "Projects" link above.
-                <div id="homeprojects">
+                <div id="homeshowcase">
                 </div>
             </p>
         </div>
@@ -38,7 +38,7 @@
             if(this.readyState == 4 && this.status == 200){
                 var myarr = JSON.parse(this.responseText);
                 myarr.forEach(function(elt){
-                    document.getElementById('homeprojects').innerHTML += buildProjectBlock(elt);
+                    document.getElementById('homeshowcase').innerHTML += buildProjectBlock(elt);
                 });
             }
         };
